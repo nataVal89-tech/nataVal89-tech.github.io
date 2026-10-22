@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="c3bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0d"/>
+      <stop offset="60%" stop-color="#14141c"/>
+      <stop offset="100%" stop-color="#08080a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#c3bg)"/>
+  <!-- 1930s Vintage Car Silhouette in Rainy Chicago Street with Crimson Neon -->
+  <g transform="translate(380, 180)">
+    <!-- Neon Sign Glow in Background -->
+    <text x="20" y="-80" fill="#e6392a" font-family="sans-serif" font-size="22" font-weight="900" letter-spacing="4" opacity="0.8">RED ROOSTER BAR</text>
+    <line x1="20" y1="-70" x2="210" y2="-70" stroke="#e6392a" stroke-width="2" opacity="0.6"/>
+    <!-- 1932 Buick Sedan Silhouette -->
+    <path d="M-80 80 L-100 65 L-95 30 L-60 10 L-10 10 L40 25 L120 30 L140 60 L135 80 Z" fill="#181821" stroke="#0a0a0f" stroke-width="3"/>
+    <!-- Car wheels -->
+    <circle cx="-65" cy="80" r="22" fill="#0c0c10" stroke="#2b2b3b" stroke-width="4"/>
+    <circle cx="95" cy="80" r="22" fill="#0c0c10" stroke="#2b2b3b" stroke-width="4"/>
+    <!-- Car headlights beam cutting through rain -->
+    <polygon points="-100,50 -240,-10 -240,110" fill="#ffeaa7" fill-opacity="0.1"/>
+    <!-- Trunk slightly ajar with hanging red cloth -->
+    <line x1="120" y1="30" x2="140" y2="22" stroke="#4d4d5e" stroke-width="3"/>
+    <path d="M135 25 Q140 50 145 70" stroke="#e6392a" stroke-width="4" fill="none"/>
+  </g>
+  <!-- Typography -->
+  <text x="40" y="70" fill="#d94a38" font-family="Georgia, serif" font-size="12" font-weight="bold" letter-spacing="2">КЛАССИЧЕСКИЙ НУАР • 1932</text>
+  <text x="40" y="115" fill="#fcecd9" font-family="Georgia, serif" font-size="28" font-weight="bold">Полночь на Саут-Сайде</text>
+  <text x="40" y="148" fill="#bfa891" font-family="sans-serif" font-size="14">Сухой закон, джаз и тело в багажнике на Молле</text>
+</svg>

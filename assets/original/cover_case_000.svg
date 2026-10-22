@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="c0bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140f0c"/>
+      <stop offset="60%" stop-color="#241810"/>
+      <stop offset="100%" stop-color="#0d0907"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#c0bg)"/>
+  <!-- Pocket Watch Gears & Roman Numeral dial -->
+  <g transform="translate(420, 180)" opacity="0.25">
+    <circle cx="0" cy="0" r="140" fill="none" stroke="#d4a34b" stroke-width="4"/>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#d4a34b" stroke-width="2" stroke-dasharray="8,6"/>
+    <line x1="0" y1="-140" x2="0" y2="140" stroke="#d4a34b" stroke-width="2"/>
+    <line x1="-140" y1="0" x2="140" y2="0" stroke="#d4a34b" stroke-width="2"/>
+  </g>
+  <!-- Gold Pocket Watch Silhouette with broken glass & red ribbon -->
+  <g transform="translate(380, 150)">
+    <circle cx="0" cy="0" r="75" fill="#241a12" stroke="#d4a34b" stroke-width="5"/>
+    <circle cx="0" cy="0" r="62" fill="#ebd8bd" stroke="#543c17" stroke-width="2"/>
+    <!-- Broken hands at 20:45 (Время убийства!) -->
+    <line x1="0" y1="0" x2="-45" y2="-12" stroke="#1c1208" stroke-width="4" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="10" y2="35" stroke="#1c1208" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="5" fill="#d4a34b"/>
+    <!-- Crack on glass -->
+    <path d="M-20 -30 L5 -5 L-12 25" stroke="#7d6a54" stroke-width="2" fill="none"/>
+    <!-- Top crown and loop -->
+    <rect x="-12" y="-95" width="24" height="20" fill="#d4a34b" rx="3"/>
+    <circle cx="0" cy="-105" r="16" fill="none" stroke="#d4a34b" stroke-width="4"/>
+    <!-- Red cord thread -->
+    <path d="M0 -105 Q-80 -40 -160 50" stroke="#e6392a" stroke-width="3" fill="none"/>
+  </g>
+  <!-- Typography Overlay -->
+  <text x="40" y="70" fill="#d94a38" font-family="Georgia, serif" font-size="12" font-weight="bold" letter-spacing="2">ИСТОРИЧЕСКИЙ ДЕТЕКТИВ • 1899</text>
+  <text x="40" y="115" fill="#fcecd9" font-family="Georgia, serif" font-size="28" font-weight="bold">Тайна антикварных часов</text>
+  <text x="40" y="148" fill="#bfa891" font-family="sans-serif" font-size="14">Убийство в закрытой мастерской на Невском</text>
+</svg>
