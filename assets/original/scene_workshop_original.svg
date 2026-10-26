@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <radialGradient id="slateBg" cx="400" cy="240" r="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#18130e"/>
+      <stop offset="70%" stop-color="#110d09"/>
+      <stop offset="100%" stop-color="#080604"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#241a12" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+
+  <!-- Slate Background & Forensic Grid -->
+  <rect width="800" height="480" fill="url(#slateBg)"/>
+  <rect width="800" height="480" fill="url(#grid)"/>
+
+  <!-- Forensic Title Header -->
+  <g transform="translate(40, 35)">
+    <rect x="0" y="0" width="310" height="42" rx="6" fill="#1f1610"/>
+    <text x="14" y="18" fill="#d49b45" font-family="'Courier New', monospace" font-size="9" font-weight="bold" letter-spacing="1.5">ПЛАНЪ МѢСТА ПРЕСТУПЛЕНIЯ</text>
+    <text x="14" y="32" fill="#ebd9c1" font-family="'Courier New', monospace" font-size="11">НЕВСКIЙ ПР., 42 • КАБИНЕТЪ ВЕЙССА</text>
+  </g>
+
+  <!-- Outer Walls Blueprint (Архитектурный план кабинета) -->
+  <rect x="60" y="90" width="680" height="340" fill="#140e0a" stroke="#4a3726" stroke-width="3" rx="4"/>
+
+  <!-- SPOT 2 (Left): Heavy Iron Door with Bolt (Засов изнутри) -->
+  <g id="spot_door_area" transform="translate(60, 180)">
+    <!-- Door opening -->
+    <line x1="0" y1="0" x2="0" y2="120" stroke="#080604" stroke-width="8"/>
+    <rect x="-6" y="10" width="16" height="100" fill="#2d2116" stroke="#c4954d" stroke-width="1.5"/>
+    <!-- Iron Deadbolt Schematic -->
+    <rect x="6" y="50" width="35" height="14" fill="#a8362b" stroke="#fff" stroke-width="1"/>
+    <text x="46" y="62" fill="#d9534f" font-family="'Courier New', monospace" font-size="10" font-weight="bold">ЗАСОВЪ (ИЗНУТРИ)</text>
+    <!-- Evidence Tag #2 -->
+    <circle cx="20" cy="90" r="12" fill="#c49b45"/>
+    <text x="20" y="94" fill="#000" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">#2</text>
+  </g>
+
+  <!-- SPOT 1 (Center-Left): Center Table & Poison Residue -->
+  <g id="spot_table_area" transform="translate(220, 240)">
+    <circle cx="60" cy="60" r="55" fill="#1d150e" stroke="#664d36" stroke-width="2" stroke-dasharray="6,4"/>
+    <!-- Decanter and 2 glasses footprint -->
+    <circle cx="60" cy="50" r="10" fill="#54121b" stroke="#e6392a" stroke-width="1.5"/>
+    <circle cx="85" cy="70" r="6" fill="#bad4e6" stroke="#fff" stroke-width="1"/>
+    <line x1="35" y1="70" x2="45" y2="60" stroke="#bad4e6" stroke-width="3"/>
+    <text x="60" y="130" fill="#e0cbaf" font-family="'Courier New', monospace" font-size="10" text-anchor="middle">СТОЛЪ: ГРАФИНЪ СЪ ЦИАНИДОМЪ</text>
+    <!-- Evidence Tag #1 -->
+    <circle cx="10" cy="20" r="12" fill="#c49b45"/>
+    <text x="10" y="24" fill="#000" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">#1</text>
+  </g>
+
+  <!-- Victim Chalk Outline (Силуэт жертвы мелом у верстака) -->
+  <g transform="translate(480, 260)" stroke="#f0e2cf" stroke-width="1.8" fill="none" opacity="0.85" stroke-dasharray="4,2">
+    <!-- Head -->
+    <circle cx="40" cy="40" r="14"/>
+    <!-- Body -->
+    <path d="M40 54 L40 100 L20 150 M40 100 L60 150 M40 68 L15 90 M40 68 L70 85"/>
+    <text x="40" y="170" fill="#a89279" font-family="'Courier New', monospace" font-size="9" text-anchor="middle">ТѢЛО: К. ВЕЙССЪ (58 Л.)</text>
+  </g>
+
+  <!-- SPOT 4 (Center-Right): Watchmaker's Workbench -->
+  <g id="spot_bench_area" transform="translate(440, 130)">
+    <rect x="0" y="0" width="160" height="60" fill="#211710" stroke="#6b513a" stroke-width="2"/>
+    <circle cx="40" cy="30" r="8" fill="#d4a34b"/>
+    <text x="80" y="35" fill="#c2ab91" font-family="'Courier New', monospace" font-size="9">ВЕРСТАКЪ / ЖЕТОНЪ</text>
+    <!-- Evidence Tag #4 -->
+    <circle cx="140" cy="15" r="12" fill="#c49b45"/>
+    <text x="140" y="19" fill="#000" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">#4</text>
+  </g>
+
+  <!-- SPOT 3 (Right): Grandfather Clock "Junghans" -->
+  <g id="spot_clock_area" transform="translate(640, 150)">
+    <rect x="0" y="0" width="70" height="180" fill="#291c12" stroke="#8a633f" stroke-width="2"/>
+    <circle cx="35" cy="40" r="22" fill="#edd9bd" stroke="#2b1a0d" stroke-width="2"/>
+    <!-- Secret Compartment (Тайник внизу) -->
+    <rect x="10" y="110" width="50" height="55" fill="#170f09" stroke="#d4a34b" stroke-width="2" stroke-dasharray="3,2"/>
+    <text x="35" y="140" fill="#d4a34b" font-family="'Courier New', monospace" font-size="8" font-weight="bold" text-anchor="middle">ТАЙНИКЪ</text>
+    <!-- Evidence Tag #3 -->
+    <circle cx="35" cy="-15" r="12" fill="#c49b45"/>
+    <text x="35" y="-11" fill="#000" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">#3</text>
+  </g>
+
+  <!-- Compass Rose (Ориентация по сторонам света) -->
+  <g transform="translate(700, 50)" opacity="0.6">
+    <circle cx="20" cy="20" r="16" fill="none" stroke="#7a624a" stroke-width="1"/>
+    <line x1="20" y1="4" x2="20" y2="36" stroke="#7a624a" stroke-width="1.5"/>
+    <line x1="4" y1="20" x2="36" y2="20" stroke="#7a624a" stroke-width="1.5"/>
+    <text x="20" y="2" fill="#d4a34b" font-family="sans-serif" font-size="8" text-anchor="middle">С</text>
+  </g>
+</svg>
